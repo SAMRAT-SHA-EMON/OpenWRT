@@ -64,7 +64,7 @@ int main() {
     pcap_close(handle);
     return 0;
 }
-Explanation
+/*Explanation
 Blocking IP Addresses: The program checks if the source or destination IP address is in the blocked list.
 Packet Handling: Captures packets using libpcap and applies the blocking logic in the packetHandler function.
 Network Device: Replace "eth0" with the appropriate network interface on your development machine or router.
@@ -79,3 +79,4 @@ Root Privileges: libpcap requires root privileges to capture packets.
 Network Device: Ensure you use the correct network interface.
 DNS Resolution: This example doesn't include DNS resolution for blocked domains. You can extend this by integrating a DNS resolver or using additional libraries to handle domain blocking.
 This example provides a basic foundation for packet filtering using libpcap in C++. You can expand this to include more sophisticated filtering logic, logging, and integration with firewall rules to create a robust packet filtering solution.
+*/
