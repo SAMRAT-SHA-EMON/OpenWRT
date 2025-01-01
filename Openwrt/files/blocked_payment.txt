@@ -1,0 +1,4 @@
+paypal.com 
+stripe.com 
+amazon.com/payments 
+https://www.quora.com/Do-I-need-separate-Payment-Gateways-for-different-domains
