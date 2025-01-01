@@ -4,7 +4,7 @@ PKG_VERSION:=1.0
 PKG_MAINTAINER:=Saim Uddin Samrat Sha Emon <samratshaemon13@gmail.com>
 PKG_LICENSE:=GPL-2.0
 PKG_DEPENDS:=libubus libubox uloop iptables
-PKG_SOURCE_URL:=https://github.com/SAMRAT-SHA-EMON/openwrt-my-filter.git;branch=master 
+PKG_SOURCE_URL:=https://github.com/SAMRAT-SHA-EMON/openwrt-my-filter/tree/master/openwrt-my-filter;branch=master 
 PKG_SOURCE_DIR:= $(BUILD_DIR)/my-filter
 PKG_SOURCE_SUBDIR:=src
 PKG_SOURCE_DATE_OPT:=1
